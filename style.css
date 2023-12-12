@@ -9,7 +9,6 @@
 nav {
   height: 90px;
   background: #000000;
-  /* background: #735a7b; */
   color: white;
   display: flex;
   justify-content: space-between;
@@ -73,9 +72,9 @@ nav a {
   32% {
     color: var(--color-1);
   }
-  33% {
+  /* 33% {
     color: var(--color-4);
-  }
+  } */
   33% {
     color: var(--color-2);
   }
@@ -108,7 +107,6 @@ nav a {
   font-size: 8.5vw;
   text-transform: uppercase;
 }
-
 
 body {
   position: relative;
