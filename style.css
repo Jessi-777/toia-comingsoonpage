@@ -17,10 +17,6 @@ nav {
   padding: 0rem calc((100vw - 1300px) / 2);
 }
 
-/* .nav-items {
-  color: rgb(186, 14, 14);
-} */
-
 .logo {
   /* color: #000; */
   color: white;
@@ -29,7 +25,7 @@ nav {
   font-style: italic;
   padding: 0 2rem;
 }
-/* home, aout, contact */
+/* home, about, contact */
 nav a {
   text-decoration: none;
   color: rgb(247, 240, 240);
@@ -107,27 +103,12 @@ nav a {
 }
 
 .title {
-  /* font-family: "Montserrat", sans-serif; */
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
   font-size: 8.5vw;
   text-transform: uppercase;
 }
 
-/* button {
-    padding: 1rem 3rem;
-    font-size: 1rem;
-    border: none;
-    color: #fdcc04;
-    background: #000;
-    border-radius: 50px;
-    cursor: pointer;
-} */
-
-/* button:hover {
-    background: #fff;
-    color:#000;
-} */
 
 body {
   position: relative;
