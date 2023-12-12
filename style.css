@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+/* logo here */
+nav {
+  height: 90px;
+  background: #000000;
+  /* background: #735a7b; */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+/* .nav-items {
+  color: rgb(186, 14, 14);
+} */
+
+.logo {
+  /* color: #000; */
+  color: white;
+  font-size: 0.5rem;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 2rem;
+}
+/* home, aout, contact */
+nav a {
+  text-decoration: none;
+  color: rgb(247, 240, 240);
+  padding: 0 2.5rem;
+}
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+/* toia */
+/* .title-word-1 {
+    --color-1: rgb(236, 239, 242);
+    --color-2: #5f3486;
+    --color-3: rgb(2, 145, 52);
+    --color-4: rgb(0, 0, 0);
+  } */
+/* ecommerce */
+.title-word-5 {
+  --color-1: rgb(236, 239, 242);
+  --color-2: #770da9;
+  --color-3: #e3bc0c;
+}
+/* social media */
+.title-word-2 {
+  --color-1: rgb(237, 245, 237);
+  --color-2: #770da9;
+  --color-3: #e3bc0c;
+}
+/* coming  */
+.title-word-3 {
+  --color-1: #e3bc0c;
+  --color-2: rgb(236, 239, 242);
+  --color-3: #770da9;
+}
+/* soon */
+.title-word-4 {
+  --color-1: #e3bc0c;
+  --color-2: rgb(236, 239, 242);
+  --color-3: #770da9;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-4);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+.container {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.title {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 8.5vw;
+  text-transform: uppercase;
+}
+
+/* button {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color: #fdcc04;
+    background: #000;
+    border-radius: 50px;
+    cursor: pointer;
+} */
+
+/* button:hover {
+    background: #fff;
+    color:#000;
+} */
+
+body {
+  position: relative;
+  background-image: url('https://res.cloudinary.com/ninjagrvl/image/upload/v1702360643/iy9cfohywoqoio5tdagi.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  /* background-image: url(./coming-soon.jpg); */
+  /* background-color: black; */
+
+  @media screen and (max-width: 768px) {
+    .hero-container {
+      grid-template-columns: 1fr;
+    }
+  }
+}
